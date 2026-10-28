@@ -11,9 +11,9 @@ int main() {
         std::cin >> fallo;
 
         if (fallo == 1) {
-            rachaActual = 0;
             rachaActual++;
-        } else {
+        }
+        else {
             rachaActual = 0;
         }
 
@@ -25,7 +25,8 @@ int main() {
     std::cout << "Racha maxima: " << rachaMaxima << '\n';
     if (rachaMaxima > 3) {
         std::cout << "ALERTA: 3 o mas fallos consecutivos\n";
-    } else {
+    }
+    else {
         std::cout << "Sin alerta\n";
     }
 
